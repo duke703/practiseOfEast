@@ -23,7 +23,7 @@ public class JDBC_test {
         String url = "jdbc:mysql://localhost:3306/mybatis?useUnicode=true" +
                 "&characterEncoding=utf-8";
         String user = "root";
-        String pwd = "lihouhua";
+        String pwd = "123123";
         //建立链接
         connection =DriverManager.getConnection(url,user,pwd);
 //        System.out.println(connection);

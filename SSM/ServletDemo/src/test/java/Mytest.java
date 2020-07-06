@@ -9,7 +9,7 @@ public class Mytest {
     @Test
     public void test(){
         try {
-            Class.forName("0com.mysql.cj.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

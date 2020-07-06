@@ -21,12 +21,12 @@ public class UserDao {
     public Connection getConnection() throws SQLException {
         return DriverManager.getConnection("jdbc:mysql://127.0.0" +
                         ".1:3306/mybatis?characterEncoding=UTF-8", "root",
-                "lihouhua");
+                "123123");
     }
     public int getTotal() {
         int total = 0;
-        try (Connection c = getConnection(); Statement s = c.createStatement();) {
-
+        try {
+            Connection c = getConnection(); Statement s = c.createStatement();
             String sql = "select count(*) from user ";
 
             ResultSet rs = s.executeQuery(sql);
@@ -46,8 +46,8 @@ public class UserDao {
     public void add(User user) {
 
         String sql = "insert into user values(?,?,?)";
-        try (Connection c = getConnection(); PreparedStatement ps = c.prepareStatement(sql);) {
-
+        try  {
+            Connection c = getConnection(); PreparedStatement ps = c.prepareStatement(sql);
             ps.setObject(1, user.id);
             ps.setObject(2, user.name);
             ps.setObject(3, user.pwd);
@@ -69,8 +69,8 @@ public class UserDao {
     public void update(User user) {
 
         String sql = "update user set name= ?, pwd = ? where id = ?";
-        try (Connection c = getConnection(); PreparedStatement ps = c.prepareStatement(sql);) {
-
+        try  {
+            Connection c = getConnection(); PreparedStatement ps = c.prepareStatement(sql);
             ps.setObject(1, user.name);
             ps.setObject(2, user.pwd);
 
@@ -86,8 +86,8 @@ public class UserDao {
 
     public void delete(int id) {
 
-        try (Connection c = getConnection(); Statement s = c.createStatement();) {
-
+        try  {
+            Connection c = getConnection(); Statement s = c.createStatement();
             String sql = "delete from user where id = " + id;
 
             s.execute(sql);
@@ -101,8 +101,8 @@ public class UserDao {
     public User get(int id) {
         User user = null;
 
-        try (Connection c = getConnection(); Statement s = c.createStatement();) {
-
+        try  {
+            Connection c = getConnection(); Statement s = c.createStatement();
             String sql = "select * from user where id = " + id;
 
             ResultSet rs = s.executeQuery(sql);
@@ -134,8 +134,8 @@ public class UserDao {
 
         String sql = "select * from user order by id desc limit ?,? ";
 
-        try (Connection c = getConnection(); PreparedStatement ps = c.prepareStatement(sql);) {
-
+        try  {
+            Connection c = getConnection(); PreparedStatement ps = c.prepareStatement(sql);
             ps.setInt(1, start);
             ps.setInt(2, count);
 
