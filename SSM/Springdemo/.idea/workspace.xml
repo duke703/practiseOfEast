@@ -2,12 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56cd365-c2c0-4e5a-bcd9-5209f41e974c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AjaxDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AjaxDemo/src/main/java/Pojo/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AjaxDemo/src/main/java/Servlet/AjaxServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AjaxDemo/web/page/AjaxDemo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AjaxDemo/web/page/Bootstraps.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AjaxDemo/web/page/JqueryTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/java/com/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/java/com/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/java/com/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/main/resources/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/src/test/java/com/MyTest/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSMbuildDemo/web/WEB-INF/jsp/allBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/src/main/java/com/controller/CodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/src/main/java/com/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/src/main/java/com/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/src/main/java/com/filter/encodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/src/main/java/com/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/src/main/resources/springmvc-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/web/WEB-INF/jsp/test1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-04-controller/web/form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/src/main/java/com/controller/JsonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/src/main/java/com/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/src/main/java/com/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/src/main/java/com/util/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/src/main/resources/springmvc-json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVCDemo/SpringMVC-05-json/web/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVCDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVCDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,6 +293,9 @@
       <workItem from="1593521521003" duration="78000" />
       <workItem from="1593562888867" duration="89000" />
       <workItem from="1593570034948" duration="59000" />
+      <workItem from="1593761291634" duration="22000" />
+      <workItem from="1593781602169" duration="23000" />
+      <workItem from="1593924373122" duration="92000" />
     </task>
     <servers />
   </component>
@@ -339,9 +370,10 @@
       <screen x="0" y="0" width="1458" height="864" />
     </state>
     <state x="231" y="76" key="SettingsEditor/0.0.1458.864@0.0.1458.864" timestamp="1593416769276" />
-    <state x="428" y="166" width="602" height="532" key="find.popup" timestamp="1593446085522">
+    <state x="428" y="166" width="602" height="532" key="find.popup" timestamp="1593924459103">
       <screen x="0" y="0" width="1458" height="864" />
     </state>
+    <state x="428" y="166" width="602" height="532" key="find.popup/0.0.1458.864/1920.0.1024.1240@0.0.1458.864" timestamp="1593924459103" />
     <state x="428" y="166" width="602" height="532" key="find.popup/0.0.1458.864@0.0.1458.864" timestamp="1593446085522" />
     <state x="278" y="0" key="new project wizard" timestamp="1593570096397">
       <screen x="0" y="0" width="1458" height="864" />
