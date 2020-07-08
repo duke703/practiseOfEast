@@ -7,5 +7,14 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" languageLevel="JDK_10" project-jdk-name="10" project-jdk-type="JavaSDK" />
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="RenderSettings">
+    <option name="quality" value="0.54" />
+  </component>
+>>>>>>> 73f33f23d0d69fb851c8cef5919453089a67e6b4
 </project>

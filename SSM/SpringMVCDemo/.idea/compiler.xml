@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="SpringMVC-01-FirstIntroduce" />
+=======
+>>>>>>> 73f33f23d0d69fb851c8cef5919453089a67e6b4
         <module name="fistrBuildSSM" />
         <module name="SpringMVC-02-repeat" />
         <module name="SpringMVC-02-hellomvc" />
@@ -14,11 +17,20 @@
         <module name="SpringMVC-03-annotation" />
         <module name="SpringMVC-04-controller" />
         <module name="SpringMVC-05-json" />
+<<<<<<< HEAD
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="fistrBuildSSM" target="1.5" />
       <module name="SpringMVC-01-FirstIntroduce" target="1.5" />
+=======
+        <module name="SpringMVC-01-Servlet" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="fistrBuildSSM" target="1.5" />
+      <module name="SpringMVC-01-Servlet" target="1.5" />
+>>>>>>> 73f33f23d0d69fb851c8cef5919453089a67e6b4
       <module name="SpringMVC-02-hellomvc" target="1.5" />
       <module name="SpringMVC-02-repeat" target="1.5" />
       <module name="SpringMVC-03-annotation" target="1.5" />
